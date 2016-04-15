@@ -14,10 +14,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.content_main);
         // Init top level data
+
         List<String> listDataHeader = new ArrayList<>();
+
         String[] mItemHeaders = getResources().getStringArray(R.array.items_array_expandable_level_one);
+
         Collections.addAll(listDataHeader, mItemHeaders);
+
         final ExpandableListView mExpandableListView = (ExpandableListView) findViewById(R.id.expandableListView_Parent);
+
         if (mExpandableListView != null) {
             ParentLevelAdapter parentLevelAdapter = new ParentLevelAdapter(this, listDataHeader);
             mExpandableListView.setAdapter(parentLevelAdapter);
