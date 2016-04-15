@@ -13,6 +13,7 @@ import java.util.List;
 import java.util.Map;
 
 public class SecondLevelAdapter extends BaseExpandableListAdapter {
+
     private final Context mContext;
     private final List<String> mListDataHeader;
     private final Map<String, List<String>> mListDataChild;

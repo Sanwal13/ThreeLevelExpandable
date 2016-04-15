@@ -18,6 +18,7 @@ import java.util.Map;
 
 
 public class ParentLevelAdapter extends BaseExpandableListAdapter {
+
     private final Context mContext;
     private final List<String> mListDataHeader;
     private final Map<String, List<String>> mListData_SecondLevel_Map;
