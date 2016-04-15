@@ -16,7 +16,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-
+/**
+ * @author Sanwal Singh
+ */
 public class ParentLevelAdapter extends BaseExpandableListAdapter {
 
     private final Context mContext;

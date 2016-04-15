@@ -12,6 +12,10 @@ import android.widget.TextView;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * @author Sanwal Singh
+ */
+
 public class SecondLevelAdapter extends BaseExpandableListAdapter {
 
     private final Context mContext;
